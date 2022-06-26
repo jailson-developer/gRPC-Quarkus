@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "usuario";
+option java_outer_classname = "UsuarioProto";
+option objc_class_prefix = "HLW";
+
+package usuario;
+
+service Logar {
+    rpc login (UsuarioRequest) returns (UsuarioResponse) {}
+}
+
+message UsuarioRequest {
+    string usuario = 1;
+    string senha = 2;
+}
+
+message UsuarioResponse {
+    string message = 1  ;
+}

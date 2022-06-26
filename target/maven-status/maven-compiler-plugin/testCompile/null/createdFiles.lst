@@ -1,0 +1,4 @@
+io/quarkus/grpc/examples/hello/UsuarioServiceTest.class
+io/quarkus/grpc/examples/hello/UsuarioControllerIT.class
+io/quarkus/grpc/examples/hello/UsuarioControllerTest.class
+io/quarkus/grpc/examples/hello/UsuarioServiceIT.class
